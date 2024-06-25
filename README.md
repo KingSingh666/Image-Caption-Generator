@@ -14,6 +14,7 @@ Thanks to Jason Brownlee for providing a direct link to download the dataset (Si
 - Flickr_8k_text https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
 
 The Flickr_8k_text folder contains file Flickr8k.token which is the main file of our dataset that contains image name and their respective captions separated by newline(“\n”).
+
 **Downloaded from dataset:**
 
 - Flicker8k_Dataset – Dataset folder which contains 8091 images.
