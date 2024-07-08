@@ -4,7 +4,7 @@ Image caption generator is a task that involves computer vision and natural lang
 
 The objective of our project is to build a working model of Image caption generator by implementing CNN with LSTM.
 
-In this Python project, we will be implementing the caption generator using CNN (Convolutional Neural Networks) and LSTM (Long short term memory). The image features will be extracted from Xception which is a CNN model trained on the imagenet dataset and then we feed the features into the LSTM model which will be responsible for generating the image captions.
+In this Python project, we will be implementing the caption generator using CNN (Convolutional Neural Networks) and LSTM (Long short term memory). The image features will be extracted from VGG16 which is a CNN model trained on the imagenet dataset and then we feed the features into the LSTM model which will be responsible for generating the image captions.
 
 # The Dataset
 
@@ -19,13 +19,3 @@ The Flickr_8k_text folder contains file Flickr8k.token which is the main file of
 
 - Flicker8k_Dataset – Dataset folder which contains 8091 images.
 - Flickr_8k_text – Dataset folder which contains text files and captions of images.
-
-**The below files will be created by us while making the project.**
-
-- Models – It will contain our trained models.
-- Descriptions.txt – This text file contains all image names and their captions after preprocessing.
-- Features.p – Pickle object that contains an image and their feature vector extracted from the Xception pre-trained CNN model.
-- Tokenizer.p – Contains tokens mapped with an index value.
-- Model.png – Visual representation of dimensions of our project.
-- Testing_caption_generator.py – Python file for generating a caption of any image.
-- Training_caption_generator.ipynb – Jupyter notebook in which we train and build our image caption generator.
